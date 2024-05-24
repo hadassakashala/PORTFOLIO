@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+  }
+
+ .navbar {
+    background: #999;
+    height: 80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .navbar_container 
+  {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 50px;
+  }
+
+  #navbar_logo
+  {
+     background-color: crimson;
+     background-image: linear-gradient(to top, #fff 0%, #ffb1ff 100%);
+     background-size: 100%;
+     -webkit-background-clip: text;
+     -moz-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -moz-text-fill-color: transparent;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 2rem;
+  }
+
+  .fa-gem
+  {
+    margin-right: 0.5rem;
+  }
+
+  .navbar_menu 
+  {
+    display: flex;  
+    align-items: center;
+    list-style: none;
+    text-align: center;
+  }
+
+  .navbar_item
+  {
+    height: 80px;  
+  }
+
+  .navbar_links
+  {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+  }
+
+ 
+    .navbar_menu.active 
+ {
+    background: #a0a1c7; 
+    top: 100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99;
+    height: 50vh;
+    font-size: 1.6rem;
+  }
+
+  #navbar_logo 
+  {
+     padding-left: 25px;
+   }
+   
+ 
+
+  .navbar_item
+  {
+  width: 100%;
+ }
+  
+ .navbar_links
+ {
+   text-align: center;
+   padding: 2rem;
+   width: 100%;
+   display: table;
+    }
+
+    #mobile-menu
+ {
+    position: absolute; 
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+  }
+
+  .navbar_toggle .bar 
+  {
+    display: block;  
+    cursor: pointer;
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+  }
+  html {
+    height: 100%;  
+  }
+
+
+.img-rose {
+  width: 300px;  
+}
+  
+  body {
+    min-height: 100%;  
+    background: #eee;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+  
+
+  
+
+.footer {
+    background-color: #777;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
